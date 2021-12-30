@@ -1,0 +1,78 @@
+.aboutMe {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #f3f1f2;
+  background-color: #181618;
+}
+
+.aboutMe .aboutMeBlock {
+  margin: 32px;
+  display: flex;
+  flex-direction: row;
+  max-width: 80%;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMe .leftSide {
+  display: flex;
+  margin: 16px;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutMe .rightSide {
+  margin: 16px;
+  max-width: 640px;
+  overflow: hidden;
+}
+
+.aboutMe .rightSide .header {
+  text-align: center;
+  font-size: 32px;
+  padding-bottom: 24px;
+  font-weight: bold;
+  font-family: Chakra Petch;
+}
+
+.aboutMe .rightSide .body {
+  text-align: center;
+  font-size: 24px;
+  font-family: Open Sans;
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted #f3f1f2;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  font-size: 16px;
+  min-width: 300px;
+  background-color: #262626;
+  color: #f3f1f2;
+  box-shadow: 0px 0px 4px #00000050;
+  text-align: center;
+  border-radius: 12px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 50%;
+  padding: 20px;
+  margin-left: -150px;
+
+  opacity: 0;
+  transition: 0.1s;
+}
+
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+  transition: 0.1s;
+}

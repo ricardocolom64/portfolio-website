@@ -1,0 +1,54 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  min-width: 100vw;
+  height: 60px;
+  background-color: #161618;
+  display: flex;
+  flex-direction: row;  
+  justify-content: center;
+  border-bottom: 1px solid #f3f1f2;
+  font-family: Chakra Petch;
+  text-align: center;
+  z-index: 5;
+}
+
+.navbar .content{
+  width: 100%;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row;
+}
+
+.navbar .leftSide {
+  flex: 50%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+  color: #f3f1f2;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .rightSide {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 20px;
+  color: #f3f1f2;
+  text-decoration: none;
+}
+
+.navbar a {
+  padding: 20px;
+  padding-bottom: 18px;
+  text-decoration: none;
+  color: #f3f1f2;
+  transition: 0.1s;
+}
+
+.navbar a:hover {
+  background: #101010;
+  transition: 0.1s;
+  cursor: pointer;
+}

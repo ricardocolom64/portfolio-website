@@ -1,0 +1,35 @@
+.contact {
+  width: 100%;
+  background-color: #262626;
+  color: #f3f1f2;
+  padding-top: 16px;
+  padding-bottom: 32px;
+
+}
+
+.contact .content {
+  max-width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+.contact .content .header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  margin: 12px;
+}
+
+.contact .content .intro {
+  font-family: Open Sans;
+  font-size: 24px;
+  margin: 12px;
+  text-align: center;
+}
+
+.contact .content a {
+  color: #E43639;
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+}

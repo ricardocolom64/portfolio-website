@@ -1,0 +1,119 @@
+.projectPage {
+  width: 100%;
+  min-height: 800px;
+  background-color: #161618;
+  color: #f3f1f2;
+  padding-top: 76px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectPage .mediaContent {
+  margin: 16px;
+  width: 720px;
+  max-width: 80%;
+}
+
+/* .projectPage .mediaContent p{
+  padding: 50px;
+  margin: auto;
+} */
+
+.projectPage .content {
+  max-width: 820px;
+  margin: 16px;
+}
+
+.projectPage .header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.projectPage .content .body {
+  margin: 16px;
+  text-align: justify;
+  font-size: 16px;
+  font-family: Open Sans;
+}
+
+.projectPage .content .body-link {
+  color: #f3f1f2;
+}
+
+.projectPage .tech {
+  border-top: 1px solid #262626;
+  width: 1200px;
+  max-width: 80%;
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px;
+  margin-top: 0px;
+}
+
+.projectPage .tech-header {
+  margin: 16px;
+  margin-top: 32px;
+}
+
+.projectPage .tech-content{
+  justify-content: space-around;
+}
+
+.projectPage .tech-images {
+  padding-top: 16px;
+  transform: scale(0.8);
+  overflow: visible;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(280px, auto) );
+  row-gap: 32px;
+}
+
+.projectPage .tech-images a {
+  border-radius: 16px;
+  padding-top: 42px;
+  padding-left: 20px;
+  padding-right: 20px;
+  transition: 0.1s;
+}
+
+.projectPage .tech-images a:hover {
+  background: #262626;
+  border-radius: 16px;
+  transition: 0.1s;
+}
+
+.projectPage .links {
+  border-top: 1px solid #262626;
+  margin: 16px;
+  margin-top: 0px;
+  width: 1200px;
+  max-width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.projectPage .links-header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px;
+  margin-top: 32px;
+}
+
+.projectPage .project-link {
+  color: #f3f1f2;
+  width: fit-content;
+  font-family: Chakra Petch;
+  font-size: 24px;
+  text-align: center;
+  margin: 8px;
+}

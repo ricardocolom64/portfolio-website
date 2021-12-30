@@ -1,0 +1,82 @@
+.projects {
+  width: 100%;
+  height: auto;
+  /* border-top: 1px solid #f3f1f2; */
+  background-color: #181618;
+  padding-top: 16px;
+}
+
+.projects .content {
+  border-top: 1px solid #262626;
+  width: 1200px;
+  max-width: 80%;
+  padding-top: 36px;
+  color: #f3f1f2;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.projects .content .header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 12px;
+}
+
+.projects .content .body {
+  font-size: 24px;
+  margin: 12px;
+  font-family: Open Sans;
+}
+
+.projects .content .projectList {
+  width: 1200px;
+  max-width: 80%;
+  height: auto;
+  overflow: visible;
+  display: grid;
+  grid-template-columns: repeat( auto-fit, minmax(280px, auto) );
+  place-items: center;
+  padding-bottom: 50px;  
+  gap: 32px;
+}
+
+.projects .content .projectItem {
+  border-radius: 15px;
+  background-color: #262626;
+  width: 280px;
+  min-height: 250px;
+  margin: 40px;
+  box-shadow: 0px 4px 8px black;
+}
+
+.projects .content .projectItem:hover {
+  cursor: pointer;
+  background: #101010;
+  transition: 0.2s;
+}
+
+.projects .content .projectItem div {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  width: 100%;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.projects .content .projectItem text1 {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-family: Chakra Petch;
+  text-decoration: none;
+  color: #f3f1f2;
+  border-bottom-style: none;
+}

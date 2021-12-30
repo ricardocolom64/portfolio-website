@@ -1,0 +1,43 @@
+.playATMF {
+  width: 100%;
+  min-height: 800px;
+  background-color: #161618;
+  color: #f3f1f2;
+  padding-top: 60px;
+  padding-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.playATMF iframe {
+  margin: 16px;
+}
+
+.playATMF .controls {
+  border-top: 1px solid #262626;
+  margin: 16px;
+  margin-top: 0px;
+  width: 60%;
+  min-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.playATMF .controls .header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px;
+  margin-top: 16px;
+}
+
+.playATMF .controls .body {
+    line-height: 1.5em;
+    min-width: 500px;
+    font-family: Open Sans;
+    font-size: 16px;
+  }
