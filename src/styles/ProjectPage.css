@@ -1,3 +1,6 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
 .projectPage {
   width: 100%;
   min-height: 800px;
@@ -16,13 +19,9 @@
   max-width: 80%;
 }
 
-/* .projectPage .mediaContent p{
-  padding: 50px;
-  margin: auto;
-} */
-
 .projectPage .content {
-  max-width: 820px;
+  width: 820px;
+  max-width: 90%;
   margin: 16px;
 }
 
@@ -31,6 +30,10 @@
   font-size: 32px;
   font-weight: bold;
   text-align: center;
+}
+
+.projectPage .header h1{
+  margin: 0px;
 }
 
 .projectPage .content .body {
@@ -75,10 +78,11 @@
 }
 
 .projectPage .tech-images a {
+  
   border-radius: 16px;
   padding-top: 42px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
   transition: 0.1s;
 }
 
@@ -97,7 +101,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;  
+  flex-direction: column;
 }
 
 .projectPage .links-header {
@@ -109,11 +113,16 @@
   margin-top: 32px;
 }
 
-.projectPage .project-link {
-  color: #f3f1f2;
-  width: fit-content;
-  font-family: Chakra Petch;
+.projectPage .links-body {  
   font-size: 24px;
   text-align: center;
+}
+
+.projectPage .project-link {
+  font-family: Chakra Petch;
   margin: 8px;
+}
+
+.projectPage .project-link a{
+  color: #f3f1f2;
 }

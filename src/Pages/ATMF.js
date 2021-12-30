@@ -90,23 +90,26 @@ function ATMF() {
             <UnityLogo />
             <CSharpLogo />
             <BlenderLogo />
-            <DiscordLogo />
+            {/* <DiscordLogo /> */}
           </div>
         </div>
       </div>
       <div className="links">
         <div className="links-header">links</div>
-        <a
-          className="project-link"
-          href="https://github.com/ricardocolom64/AliensTookMyFriend"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github repository
-        </a>
-        <a className="project-link" href="/projects/atmf/play">
-          play on this site
-        </a>
+        <div className="links-body">
+          <div className="project-link">
+            <a
+              href="https://github.com/ricardocolom64/AliensTookMyFriend"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github repository
+            </a> <i class="fa fa-github"></i>
+          </div>
+          <div className="project-link">
+            <a href="/projects/atmf/play">play on this site</a>
+          </div>
+        </div>
       </div>
     </div>
   );

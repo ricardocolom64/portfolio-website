@@ -1,11 +1,9 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "../styles/ProjectPage.css";
-import logo from "../assets/projects/atmf/logo.png";
-import DiscordLogo from "../helpers/DiscordLogo";
-import BlenderLogo from "../helpers/BlenderLogo";
-import UnityLogo from "../helpers/UnityLogo";
-import CSharpLogo from "../helpers/CSharpLogo";
+import ReactLogo from "../helpers/ReactLogo";
+import HTMLLogo from "../helpers/HTMLLogo";
+import CSSLogo from "../helpers/CSSLogo";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 
@@ -22,40 +20,59 @@ function SitePage() {
   return (
     <div className="projectPage" id="site">
       <div className="mediaContent">
-        test
+        <Carousel showThumbs={false} dynamicHeight={true}>
+          <iframe
+            width="560"
+            height="405"
+            src="https://www.youtube.com/embed/-XpHuNfeMX0"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+          <img src={image2} />
+          <img src={image3} />
+          <img src={image4} />
+          <img src={image5} />
+          <img src={image6} />
+        </Carousel>
       </div>
       <div className="content">
         <div className="header">
-          <h1>Aliens Took My Friend</h1>
+          <h1>This Website</h1>
         </div>
         <div className="body" style={{ whiteSpace: "pre-line" }}>
-          &emsp;&emsp;&emsp;&emsp;This is sample text
+          <p>
+            &emsp;&emsp;&emsp;&emsp;This website is an ever-growing project that
+            I constantly change and append to as I become more familiar with
+            different technologies. It was essentially my first exposure to
+            React, HTML, and CSS, and development began in late December 2021.
+          </p>
         </div>
       </div>
       <div className="tech">
         <div className="tech-header">technologiesUsed</div>
         <div className="tech-content">
           <div className="tech-images">
-            <UnityLogo />
-            <CSharpLogo />
-            <BlenderLogo />
-            <DiscordLogo />
+            <ReactLogo />
+            <HTMLLogo />
+            <CSSLogo />
           </div>
         </div>
       </div>
       <div className="links">
         <div className="links-header">links</div>
-        <a
-          className="project-link"
-          href="https://github.com/ricardocolom64/AliensTookMyFriend"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          github repository
-        </a>
-        <a className="project-link" href="/projects/atmf/play">
-          play on this site
-        </a>
+        <div className="links-body">
+          <div className="project-link">
+            <a
+              href="https://github.com/ricardocolom64/portfolio-website"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              github repository
+            </a> <i class="fa fa-github"></i>
+          </div>
+        </div>
       </div>
     </div>
   );
