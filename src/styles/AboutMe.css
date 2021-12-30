@@ -10,9 +10,12 @@
 
 .aboutMe .aboutMeBlock {
   margin: 32px;
+  margin-left: 0px;
+  margin-right: 0px;
   display: flex;
   flex-direction: row;
-  max-width: 80%;
+  width: 900px;
+  max-width: 90%;
   align-items: center;
   justify-content: center;
 }
@@ -24,9 +27,14 @@
   justify-content: center;
 }
 
+@media only screen and (max-width: 1000px) {
+  .aboutMe .leftSide{
+    display: none;
+  }
+}
+
 .aboutMe .rightSide {
   margin: 16px;
-  max-width: 640px;
   overflow: hidden;
 }
 
@@ -40,7 +48,7 @@
 
 .aboutMe .rightSide .body {
   text-align: center;
-  font-size: 24px;
+  font-size: 18px;
   font-family: Open Sans;
 }
 

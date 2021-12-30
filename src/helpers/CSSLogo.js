@@ -1,5 +1,5 @@
 import React from "react";
-import CSSImage from "../assets/icons/CSS3_Logo_White-cropped.svg";
+import CSSImage from "../assets/icons/CSS3_logo-cropped.svg";
 
 function CSSLogo() {
   return (

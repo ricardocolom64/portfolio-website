@@ -3,7 +3,6 @@
   min-height: 300px;
   /* border-top: 1px solid #f3f1f2; */
   background-color: #181618;
-  padding-top: 16px;
 }
 
 .portfolio .content {
@@ -29,7 +28,7 @@
 }
 
 .portfolio .body {
-  font-size: 24px;
+  font-size: 18px;
   margin: 12px;
   text-align: center;
 }

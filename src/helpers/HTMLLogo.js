@@ -1,5 +1,5 @@
 import React from "react";
-import HTMLImage from "../assets/icons/HTML5_Logo_White-cropped.svg";
+import HTMLImage from "../assets/icons/HTML5_Badge-cropped.svg";
 
 function HTMLLogo() {
   return (
