@@ -10,6 +10,7 @@ import NotFound from "./components/NotFound";
 import UnderConstruction from "./components/UnderConstruction";
 import Home from "./Pages/Home.js";
 import ATMF from "./Pages/ATMF";
+import SitePage from "./Pages/SitePage";
 import PlayATMF from "./Pages/PlayATMF";
 import "./App.css";
 
@@ -21,7 +22,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={Home} />
           <Route exact path="/test" element={<ATMF />} />
-          <Route exact path="/projects/site" element ={<UnderConstruction />} />
+          <Route exact path="/projects/site" element ={<SitePage />} />
           <Route exact path="/projects/atmf" element={<ATMF />} />
           <Route exact path="/projects/atmf/play" element={<PlayATMF />} />
           <Route exact path="/projects/instaslot" element={<UnderConstruction />} />
