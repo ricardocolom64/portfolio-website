@@ -1,6 +1,3 @@
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
-
 .projectPage {
   width: 100%;
   min-height: 800px;
@@ -32,7 +29,7 @@
   text-align: center;
 }
 
-.projectPage .header h1{
+.projectPage .header h1 {
   margin: 0px;
 }
 
@@ -64,29 +61,37 @@
   margin-top: 32px;
 }
 
-.projectPage .tech-content{
+.projectPage .tech-content {
   justify-content: space-around;
 }
 
 .projectPage .tech-images {
-  padding-top: 16px;
   transform: scale(0.8);
   overflow: visible;
   display: grid;
-  grid-template-columns: repeat( auto-fit, minmax(280px, auto) );
+  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   row-gap: 32px;
+
+  justify-content: center;
+  align-items: center;
 }
 
-.projectPage .tech-images a {
-  
+.projectPage .tech-images div {
   border-radius: 16px;
-  padding-top: 42px;
+  font-size: 24px;
+  text-decoration: none;
+  padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
   transition: 0.1s;
 }
 
-.projectPage .tech-images a:hover {
+.projectPage .tech-images a {
+  text-decoration: none;
+  color: #f3f1f2;
+}
+
+.projectPage .tech-images div:hover {
   background: #262626;
   border-radius: 16px;
   transition: 0.1s;
@@ -113,7 +118,7 @@
   margin-top: 32px;
 }
 
-.projectPage .links-body {  
+.projectPage .links-body {
   font-size: 24px;
   text-align: center;
 }
@@ -123,6 +128,6 @@
   margin: 8px;
 }
 
-.projectPage .project-link a{
+.projectPage .project-link a {
   color: #f3f1f2;
 }

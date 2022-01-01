@@ -3,7 +3,7 @@ import BlenderImage from "../assets/icons/Logo_Blender.svg";
 
 function BlenderLogo() {
   return (
-    <div>
+    <div style={{ whiteSpace: "pre-line"}}>
       <a href="https://www.blender.org/" target="_blank" rel="noopener noreferrer">
         <img
           src={BlenderImage}
@@ -11,7 +11,7 @@ function BlenderLogo() {
           style={{
             height: "64px",
           }}
-        />
+        />{"\n"}Blender
       </a>
     </div>
   );

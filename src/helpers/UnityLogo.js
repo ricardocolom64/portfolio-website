@@ -3,7 +3,7 @@ import UnityImage from "../assets/icons/U_Logo_White_RGB-cropped.svg";
 
 function UnityLogo() {
   return (
-    <div>
+    <div style={{ whiteSpace: "pre-line"}}>
       <a href="https://unity.com/" target="_blank" rel="noopener noreferrer">
         <img
           src={UnityImage}
@@ -11,7 +11,7 @@ function UnityLogo() {
           style={{
             height: "64px",
           }}
-        />
+        />{"\n"}Unity
       </a>
     </div>
   );

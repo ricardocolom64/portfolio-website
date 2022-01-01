@@ -25,10 +25,13 @@
   margin: 16px;
   align-items: center;
   justify-content: center;
+  animation: pop-in 0.5s forwards;
+  animation-delay: 0.1s;
+  opacity: 0;
 }
 
 @media only screen and (max-width: 1000px) {
-  .aboutMe .leftSide{
+  .aboutMe .leftSide {
     display: none;
   }
 }
@@ -36,6 +39,9 @@
 .aboutMe .rightSide {
   margin: 16px;
   overflow: hidden;
+  animation: pop-in 0.5s forwards;
+  animation-delay: 0.2s;
+  opacity: 0;
 }
 
 .aboutMe .rightSide .header {
@@ -64,7 +70,7 @@
   min-width: 300px;
   background-color: #262626;
   color: #f3f1f2;
-  box-shadow: 0px 0px 4px #00000050;
+  box-shadow: 0px 0px 2px #f3f1f2;
   text-align: center;
   border-radius: 12px;
   padding: 5px 0;
@@ -72,8 +78,8 @@
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  padding: 20px;
-  margin-left: -150px;
+  padding: 10px;
+  margin-left: -80px;
 
   opacity: 0;
   transition: 0.1s;

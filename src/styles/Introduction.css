@@ -5,12 +5,13 @@
 }
 
 .introduction .introductionBlock{
-  min-height: 380px;
+  min-height: 400px;
   margin: 16px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  animation: pop-in 0.5s;
 }
 
 .introduction .introductionBlock .leftSide {

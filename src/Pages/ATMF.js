@@ -77,9 +77,10 @@ function ATMF() {
           <ul>
             <li>Programming character movement, shooting, and room logic.</li>
             <li>
-              Designing and Modeling <strong>all</strong> models using Blender.
+              Designing and modeling <strong>all</strong> models using Blender.
             </li>
             <li>Producing and arranging the game's music.</li>
+            <li>Arranging sound effects.</li>
           </ul>
         </div>
       </div>
