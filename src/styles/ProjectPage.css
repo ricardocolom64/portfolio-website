@@ -2,7 +2,7 @@
   width: 100%;
   min-height: 800px;
   background-color: #161618;
-  color: #f3f1f2;
+  color: var(--text);
   padding-top: 76px;
   padding-bottom: 32px;
   display: flex;
@@ -11,9 +11,19 @@
 }
 
 .projectPage .mediaContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin: 16px;
   width: 720px;
   max-width: 80%;
+}
+
+.projectPage .mediaContent .no-carousel img{
+  height: 280px;
+  padding: 3px;
+  background-color: var(--text);
+  border-radius: 12px;
 }
 
 .projectPage .content {
@@ -22,15 +32,16 @@
   margin: 16px;
 }
 
-.projectPage .header {
-  font-family: Chakra Petch;
-  font-size: 32px;
-  font-weight: bold;
+.projectPage .header{
   text-align: center;
 }
 
 .projectPage .header h1 {
   margin: 0px;
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
 }
 
 .projectPage .content .body {
@@ -41,11 +52,11 @@
 }
 
 .projectPage .content .body-link {
-  color: #f3f1f2;
+  color: var(--text);
 }
 
 .projectPage .tech {
-  border-top: 1px solid #262626;
+  border-top: 1px solid var(--dark);
   width: 1200px;
   max-width: 80%;
   font-family: Chakra Petch;
@@ -71,7 +82,6 @@
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(280px, auto));
   row-gap: 32px;
-
   justify-content: center;
   align-items: center;
 }
@@ -88,17 +98,17 @@
 
 .projectPage .tech-images a {
   text-decoration: none;
-  color: #f3f1f2;
+  color: var(--text);
 }
 
 .projectPage .tech-images div:hover {
-  background: #262626;
+  background: var(--dark);
   border-radius: 16px;
   transition: 0.1s;
 }
 
 .projectPage .links {
-  border-top: 1px solid #262626;
+  border-top: 1px solid var(--dark);
   margin: 16px;
   margin-top: 0px;
   width: 1200px;
@@ -129,5 +139,5 @@
 }
 
 .projectPage .project-link a {
-  color: #f3f1f2;
+  color: var(--text);
 }

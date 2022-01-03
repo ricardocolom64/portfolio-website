@@ -19,8 +19,8 @@ function AboutMe() {
   return (
     <div className="aboutMe">
       <div className="aboutMeBlock">
-        <div className="leftSide">
-          <img
+        <div className="leftSide" style={{ whiteSpace: "pre-line" }}>
+          {/* <img
             src={Groove}
             alt=""
             style={{
@@ -28,7 +28,18 @@ function AboutMe() {
               height: "324px",
               boxShadow: "0px 3px 8px black",
             }}
-          />
+          /> */}
+          <span role="img" aria-label="man-raising-hand">
+            👨🏻‍🎓
+          </span>
+          <div className="bottom-icons">
+            <span role="img" aria-label="computer-keyboard">
+              🎮
+            </span>
+            <span role="img" aria-label="computer-keyboard">
+              🏋🏻‍♂️
+            </span>
+          </div>
         </div>
 
         <div className="rightSide">

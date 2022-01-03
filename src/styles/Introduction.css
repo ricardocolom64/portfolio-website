@@ -1,11 +1,28 @@
 .introduction {
   padding-top: 60px;
+  height: calc(100vh - 60px);
   width: 100%;
-  background-color: #262626;
+  background-color: var(--dark);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.introduction .introductionBlock{
-  min-height: 400px;
+.introduction .introduction-content {
+  max-width: 90%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.introduction .introductionBlock {
+  height: auto;
+  width: 100%;
+  overflow: hidden;
   margin: 16px;
   display: flex;
   flex-direction: row;
@@ -14,9 +31,18 @@
   animation: pop-in 0.5s;
 }
 
+@media only screen and (max-width: 800px) {
+  .introduction .introductionBlock {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
 .introduction .introductionBlock .leftSide {
   margin: 16px;
-  color: #F3F1F2;
+  color: var(--text);
   text-align: right;
   font-family: Chakra Petch;
 }
@@ -25,11 +51,133 @@
   font-size: 48px;
 }
 
+.introduction .introductionBlock .leftSide .header b {
+  color: var(--primary);
+}
+
 .introduction .introductionBlock .leftSide .caption {
   font-size: 24px;
 }
 
 .introduction .introductionBlock .rightSide {
+  margin: 16px;
+  font-size: 64px;
+}
+
+@media only screen and (max-width: 560px) {
+  .introduction .introductionBlock .leftSide {
+    text-align: center;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .introduction .introductionBlock .leftSide .header {
+    font-size: 40px;
+  }
+
+  .introduction .introductionBlock .leftSide .caption {
+    font-size: 18px;
+  }
+
+  .introduction .introduction-content {
+    margin-top: 32px;
+    margin-bottom: 32px;
+  }
+
+  .introduction .introductionBlock .rightSide {
+    font-size: 40px;
+    margin: 0px;
+  }
+
+  .introduction .introductionBlock{
+    margin-bottom: 0px;
+  }
+}
+
+.introduction .tech-icons {
+  transform: scale(0.5);
+}
+
+@media only screen and (max-width: 500px) {
+  .introduction .tech-icons {
+    transform: scale(0.46);
+  }
+}
+
+.introduction .tech-icons .content {
+  display: flex;
+  flex-direction: row;
+  color: var(--text);
+  font-family: Chakra Petch;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+  text-decoration: none;
+  animation: pop-in 0.5s forwards;
+  animation-delay: 0.3s;
+  opacity: 0;
+}
+
+.introduction .tech-icons .content div {
+  margin-left: 32px;
+  margin-right: 32px;
+  padding-top: 16px;
+}
+
+.introduction .tech-icons .content a:hover {
+  background: var(--darker);
+  border-radius: 16px;
+  transition: 0.1s;
+}
+
+.introduction .tech-icons .content a {
+  text-decoration: none;
+  color: var(--text);
+}
+
+.introduction .call-to-action {
   margin: 32px;
-  visibility: visible;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: pop-in 0.5s forwards;
+  animation-delay: 0.6s;
+  opacity: 0;
+}
+
+.introduction .call-to-action .content {
+  width: 400px;
+  max-width: 90%;
+}
+
+.introduction .call-to-action a {
+  text-decoration: none;
+  color: #f3f1f2;
+  z-index: 5;
+}
+
+.introduction .call-to-action .project-button {
+  position: relative;
+  color: var(--text);
+  text-align: center;
+  margin: none;
+  font-family: Chakra Petch;
+  font-size: 24px;
+  padding: 24px;
+  background-color: var(--primary);
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  box-shadow: 0px 6px var(--primary-dark);
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.introduction .call-to-action .project-button:active {
+  transform: translateY(4px);
+  box-shadow: none;
+  transition: transform 34ms;
+}
+
+.introduction .call-to-action .project-button:hover {
+  filter: brightness(90%);
 }

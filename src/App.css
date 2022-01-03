@@ -1,3 +1,14 @@
+:root{
+  --primary: #e9193c;
+  --primary-dark: #b21330;
+  --lighter: #a7a7a7;
+  --light: #979797;
+  --dark: #262626;
+  --darker: #181618;
+  --darkest: #101010;
+  --text: #f3f1f2;
+}
+
 .App {
   width: 100%;
   display: flex;
@@ -16,7 +27,6 @@ body {
   margin: 0;
 }
 
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 @keyframes pop-in {

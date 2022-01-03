@@ -3,17 +3,18 @@ import ReactImage from "../assets/icons/React_Logo-cropped.svg";
 
 function ReactLogo() {
   return (
-    <div style={{ whiteSpace: "pre-line"}}>
-      <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+    <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer">
+      <div style={{ whiteSpace: "pre-line" }}>
         <img
           src={ReactImage}
           alt=""
           style={{
             height: "64px",
           }}
-        />{"\n"}ReactJS
-      </a>
-    </div>
+        />
+        {"\n"}ReactJS
+      </div>
+    </a>
   );
 }
 

@@ -3,6 +3,12 @@ import "../styles/Navbar.css";
 import ReorderIcon from "../assets/icons/reorder_white_24dp.svg";
 import { HashLink } from "react-router-hash-link";
 
+const scrollWithOffset = (el) => {
+  const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
+  const yOffset = -46;
+  window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
+}
+
 function Navbar() {
   const [openLinks, setOpenLinks] = useState(false);
 
@@ -18,25 +24,25 @@ function Navbar() {
             <b>ricardoColom</b>
           </HashLink>
           <div className="hiddenLinks">
-          <HashLink smooth to="/#portfolio">
-            portfolio
+          <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
+            resume
           </HashLink>
-          <HashLink smooth to="/#projects">
+          <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
             projects
           </HashLink>
-          <HashLink smooth to="#contact">
+          <HashLink smooth to="#contact" scroll={el => scrollWithOffset(el)}>
             contact
           </HashLink>
           </div>
         </div>
         <div className="rightSide">
-          <HashLink smooth to="/#portfolio">
-            portfolio
+          <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
+            resume
           </HashLink>
-          <HashLink smooth to="/#projects">
+          <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
             projects
           </HashLink>
-          <HashLink smooth to="#contact">
+          <HashLink smooth to="#contact" scroll={el => scrollWithOffset(el)}>
             contact
           </HashLink>
           <button onClick={toggleNavbar}>

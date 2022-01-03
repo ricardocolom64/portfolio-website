@@ -8,7 +8,7 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 
 //#region ATMF IMAGES
-import image1 from "../assets/projects/atmf/image1.png";
+import image1 from "../assets/projects/website/thumbnail-lazy.png";
 import image2 from "../assets/projects/atmf/image2.png";
 import image3 from "../assets/projects/atmf/image3.png";
 import image4 from "../assets/projects/atmf/image4.png";
@@ -20,22 +20,9 @@ function SitePage() {
   return (
     <div className="projectPage" id="site">
       <div className="mediaContent">
-        <Carousel showThumbs={false} dynamicHeight={true}>
-          <iframe
-            width="560"
-            height="405"
-            src="https://www.youtube.com/embed/-XpHuNfeMX0"
-            title="YouTube video player"
-            frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-            allowfullscreen
-          ></iframe>
-          <img src={image2} />
-          <img src={image3} />
-          <img src={image4} />
-          <img src={image5} />
-          <img src={image6} />
-        </Carousel>
+        <div className="no-carousel">
+          <img src={image1} height="auto" />
+        </div>
       </div>
       <div className="content">
         <div className="header">
@@ -70,7 +57,8 @@ function SitePage() {
               rel="noopener noreferrer"
             >
               github repository
-            </a> <i class="fa fa-github"></i>
+            </a>{" "}
+            <i class="fa fa-github"></i>
           </div>
         </div>
       </div>

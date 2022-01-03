@@ -1,15 +1,165 @@
 .contact {
   width: 100%;
-  background-color: #262626;
-  color: #f3f1f2;
-  padding-top: 16px;
+  background-color: var(--dark);
+  color: var(--text);
   padding-bottom: 32px;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.contact .content {
+.contact .contact-content {
+  width: 1000px;
   max-width: 90%;
-  margin: auto;
+  text-align: center;
+  margin-bottom: 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .contact-content .contact-header {
+  font-family: Chakra Petch;
+  font-size: 32px;
+  font-weight: bold;
+  width: auto;
+  margin: 12px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.contact .contact-form-warning {
+  font-style: Open Sans;
+}
+
+.contact .contact-form-warning strong {
+  color: var(--primary);
+  text-shadow: 2px 2px 2px black;
+}
+
+.contact .contact-form-content {
+  max-width: 100%;
+}
+
+.contact .contact-form-content #contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact .contact-form-content input[type="text"],
+input[type="email"],
+select,
+textarea {
+  width: 600px;
+  max-width: 100%; /* Full width */
+  font-family: Open Sans;
+  font-size: 16px;
+  color: var(--text);
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  background-color: var(--darker);
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin: 6px;
+  resize: vertical;
+}
+
+.contact .contact-under-form {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+  max-width: 100%;
+}
+
+.contact .contact-under-form .submit-button {
+  color: var(--text);
+  margin: 6px;
+  margin-right: 0px;
+  font-family: Chakra Petch;
+  text-align: center;
+  font-size: 18px;
+  padding: 12px;
+  background-color: var(--primary);
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  box-shadow: 0px 6px var(--primary-dark);
+  border-radius: 12px;
+  cursor: pointer;
+  width: 80px;
+}
+
+.contact .contact-under-form .submit-button:active {
+  transform: translateY(4px);
+  box-shadow: none;
+  transition: transform 34ms;
+}
+
+.contact .contact-under-form .submit-button:hover {
+  filter: brightness(90%);
+}
+
+.contact .contact-under-form .other-contacts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  font-family: Open Sans;
+}
+
+.contact .other-contacts p {
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.contact .other-contacts a {
+  margin-left: 8px;
+  color: var(--text);
+}
+
+@media only screen and (max-width: 500px) {
+  .contact .other-contacts a {
+    font-size: 16px;
+  }
+}
+
+.contact .right-side {
+  width: 300px;
+  font-size: 18px;
+  font-family: Open Sans;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact .right-side-content {
+  max-width: 90%;
+}
+
+.contact .right-side i {
+  margin-right: 8px;
+}
+
+.contact .right-side a {
+  margin-left: 8px;
+  color: var(--text);
+}
+
+@media only screen and (max-width: 1040px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+/* .contact .content {
+  max-width: 90%;
+  margin-top: 16px;
   text-align: center;
 }
 
@@ -28,8 +178,8 @@
 }
 
 .contact .content a {
-  color: #E43639;
+  color: var(--primary);
   font-family: Chakra Petch;
   font-size: 32px;
   font-weight: bold;
-}
+} */
