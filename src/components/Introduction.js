@@ -10,7 +10,7 @@ import CSSLogo from "../helpers/CSSLogo";
 
 const scrollWithOffset = (el) => {
   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
-  const yOffset = -26; 
+  const yOffset = -46;
   window.scrollTo({ top: yCoordinate + yOffset, behavior: 'smooth' }); 
 }
 

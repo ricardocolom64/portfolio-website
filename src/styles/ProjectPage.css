@@ -26,6 +26,12 @@
   border-radius: 12px;
 }
 
+@media only screen and (max-width: 560px) {
+  .projectPage .mediaContent .no-carousel img{
+    height: 180px;
+  }
+}
+
 .projectPage .content {
   width: 820px;
   max-width: 90%;
