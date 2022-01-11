@@ -1,24 +1,21 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "../styles/ProjectPage.css";
+import ScrollToTop from "../helpers/ScrollToTop";
 import ReactLogo from "../helpers/ReactLogo";
 import HTMLLogo from "../helpers/HTMLLogo";
 import CSSLogo from "../helpers/CSSLogo";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 
-//#region ATMF IMAGES
+//#region IMAGES
 import image1 from "../assets/projects/website/thumbnail-lazy.png";
-import image2 from "../assets/projects/atmf/image2.png";
-import image3 from "../assets/projects/atmf/image3.png";
-import image4 from "../assets/projects/atmf/image4.png";
-import image5 from "../assets/projects/atmf/image5.png";
-import image6 from "../assets/projects/atmf/image6.png";
 //#endregion
 
 function SitePage() {
   return (
-    <div className="projectPage" id="site">
+    <div className="projectPage" id="site">   
+    <ScrollToTop />
       <div className="mediaContent">
         <div className="no-carousel">
           <img src={image1} height="auto" />

@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import { ProjectList } from "../helpers/ProjectList.js";
 import ProjectItem from "./ProjectItem";
 import ATMFThumbnail from "../assets/projects/atmf/image1.png";
@@ -42,14 +43,14 @@ function Projects() {
                 began in late December 2021.
               </div>
               <div className="project-caption">
-                <a href="/projects/site">
+                <Link to="/projects/site">
                   <div className="project-learn-more">
                     <div className="learn-more-button">
                       Learn more{" "}
                       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>
@@ -72,14 +73,14 @@ function Projects() {
                 onto an alien spaceship.
               </div>
               <div className="project-caption">
-                <a href="/projects/atmf">
+                <Link to="/projects/atmf">
                   <div className="project-learn-more">
                     <div className="learn-more-button">
                       Learn more{" "}
                       <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
                     </div>
                   </div>
-                </a>
+                </Link>
               </div>
             </div>
           </div>

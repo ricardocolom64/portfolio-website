@@ -20,19 +20,19 @@ function Navbar() {
     <div className="navbar">
       <div className="content">
         <div className="leftSide" id={openLinks ? "open" : "close"}>
-          <HashLink smooth to="/#home" id="name">
+          <HashLink smooth to="/#home" scroll={el => scrollWithOffset(el)} id="name">
             <b>ricardoColom</b>
           </HashLink>
           <div className="hiddenLinks">
-          <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
-            resume
-          </HashLink>
-          <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
-            projects
-          </HashLink>
-          <HashLink smooth to="#contact" scroll={el => scrollWithOffset(el)}>
-            contact
-          </HashLink>
+            <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
+              resume
+            </HashLink>
+            <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
+              projects
+            </HashLink>
+            <HashLink smooth to="/#contact" scroll={el => scrollWithOffset(el)}>
+              contact
+            </HashLink>
           </div>
         </div>
         <div className="rightSide">
@@ -42,7 +42,7 @@ function Navbar() {
           <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
             projects
           </HashLink>
-          <HashLink smooth to="#contact" scroll={el => scrollWithOffset(el)}>
+          <HashLink smooth to="/#contact" scroll={el => scrollWithOffset(el)}>
             contact
           </HashLink>
           <button onClick={toggleNavbar}>

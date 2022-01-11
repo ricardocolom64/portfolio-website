@@ -1,10 +1,12 @@
 import React from "react";
 import ATMFGame from "../components/ATMFGame";
+import ScrollToTop from "../helpers/ScrollToTop";
 import "../styles/HTMLGame.css";
 
 function PlayATMF() {
   return (
     <div className="playATMF">
+      <ScrollToTop />
       <ATMFGame />
       <div className="controls">
         <div className="header">controls</div>

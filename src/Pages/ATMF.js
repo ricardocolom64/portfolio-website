@@ -1,6 +1,8 @@
 import React from "react";
 import ReactPlayer from "react-player";
 import "../styles/ProjectPage.css";
+import {Link} from "react-router-dom";
+import ScrollToTop from "../helpers/ScrollToTop";
 import logo from "../assets/projects/atmf/logo.png";
 import DiscordLogo from "../helpers/DiscordLogo";
 import BlenderLogo from "../helpers/BlenderLogo";
@@ -20,7 +22,8 @@ import image6 from "../assets/projects/atmf/image6.png";
 
 function ATMF() {
   return (
-    <div className="projectPage" id="ATMF">
+    <div className="projectPage" id="ATMF">      
+    <ScrollToTop />
       <div className="mediaContent">
         <Carousel showThumbs={false} dynamicHeight={true}>
           <iframe
@@ -108,7 +111,7 @@ function ATMF() {
             </a> <i class="fa fa-github"></i>
           </div>
           <div className="project-link">
-            <a href="/projects/atmf/play">play on this site</a>
+            <Link to="/projects/atmf/play">play on this site</Link>
           </div>
         </div>
       </div>

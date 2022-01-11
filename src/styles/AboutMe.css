@@ -31,7 +31,11 @@
   animation-delay: 0.1s;
   opacity: 0;
   margin: 32px;
-  font-size: 64px;
+  font-size: 64px;  
+}
+
+.aboutMe .leftSide span{
+  margin: 8px;
 }
 
 .aboutMe .leftSide .bottom-icons {
@@ -77,19 +81,18 @@
 
 .tooltip .tooltiptext {
   visibility: hidden;
-  font-size: 16px;
-  min-width: 320px;
+  font-size: 14px;
+  min-width: max-content;
   background-color: var(--dark);
   color: var(--text);
-  box-shadow: 0px 0px 2px var(--text);
   text-align: center;
-  border-radius: 12px;
+  border-radius: 4px;
   padding: 5px 0;
   position: absolute;
   z-index: 1;
   bottom: 100%;
   left: 50%;
-  padding: 10px;
+  padding: 5px;
   margin-left: -60px;
 
   opacity: 0;

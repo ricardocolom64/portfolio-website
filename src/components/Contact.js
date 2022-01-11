@@ -32,7 +32,7 @@ function Contact() {
         <div className="contact-under-form">
           <div className="other-contacts">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:ricardocolom64@gmail.com">ricardocolom@gmail.com</a>
+            <a href="mailto:ricardocolom64@gmail.com">ricardocolom64@gmail.com</a>
           </div>
           <div className="submit-button">
             <div className="button-text">Submit</div>

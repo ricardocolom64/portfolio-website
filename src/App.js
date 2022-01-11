@@ -1,5 +1,6 @@
 import logo from "./logo.svg";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollToTop from "./helpers/ScrollToTop";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Introduction from "./components/Introduction";
 import AboutMe from "./components/AboutMe";
@@ -26,6 +27,7 @@ function App() {
         <Routes>
           <Route exact path="/" element={HomePage} />
           <Route exact path="/test" element={<ATMF />} />
+          <Route exact path="/projects" element ={<NotFound />} />
           <Route exact path="/projects/site" element ={<SitePage />} />
           <Route exact path="/projects/atmf" element={<ATMF />} />
           <Route exact path="/projects/atmf/play" element={<PlayATMF />} />
