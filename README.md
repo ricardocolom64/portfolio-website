@@ -1,6 +1,6 @@
 # Portfolio Website
 
-This is the repo for my personal portfolio website, you can take a look at it on the web [here](https://ricardocolom64.github.io/portfolio-website) (a better URL name is coming soon...)
+This is the repo for my personal portfolio website, you can take a look at it on the web [here](https://ricardocolom64.github.io/portfolio-website) (proper domain name coming soon...)
 
 # Getting Started with Create React App
 
