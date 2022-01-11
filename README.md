@@ -1,3 +1,7 @@
+# Portfolio Website
+
+This is the repo for my personal portfolio website, you can take a look at it on the web [here](https://ricardocolom64.github.io/portfolio-website) (a better URL name is coming soon...)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
