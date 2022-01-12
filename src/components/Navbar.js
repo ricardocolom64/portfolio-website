@@ -18,24 +18,13 @@ function Navbar() {
 
   return (
     <div className="navbar">
-      <div className="content">
-        <div className="leftSide" id={openLinks ? "open" : "close"}>
+      <div className="content" id={openLinks ? "open" : "closed"}>
+        <div className="left-side" >
           <HashLink smooth to="/#home" scroll={el => scrollWithOffset(el)} id="name">
             <b>ricardoColom</b>
           </HashLink>
-          <div className="hiddenLinks">
-            <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
-              resume
-            </HashLink>
-            <HashLink smooth to="/#projects" scroll={el => scrollWithOffset(el)}>
-              projects
-            </HashLink>
-            <HashLink smooth to="/#contact" scroll={el => scrollWithOffset(el)}>
-              contact
-            </HashLink>
-          </div>
         </div>
-        <div className="rightSide">
+        <div className="section-links">
           <HashLink smooth to="/#resume" scroll={el => scrollWithOffset(el)}>
             resume
           </HashLink>
@@ -45,10 +34,10 @@ function Navbar() {
           <HashLink smooth to="/#contact" scroll={el => scrollWithOffset(el)}>
             contact
           </HashLink>
-          <button onClick={toggleNavbar}>
-            <img src={ReorderIcon} />
-          </button>
         </div>
+        <button onClick={toggleNavbar}>
+          <img src={ReorderIcon} />
+        </button>
       </div>
     </div>
   );

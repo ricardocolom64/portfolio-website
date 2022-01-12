@@ -3,38 +3,23 @@
   top: 0;
   min-width: 100%;
   height: 60px;
-  background-color: #161618;
+  background-color: var(--darker);
   display: flex;
-  flex-direction: row;  
+  flex-direction: row;
   justify-content: center;
-  border-bottom: 1px solid #f3f1f2;
+  border-bottom: 1px solid var(--text);
   font-family: Chakra Petch;
-  text-align: center;
   z-index: 5;
 }
 
-.navbar .content{
+.navbar .content {
   width: 100%;
   max-width: 920px;
   display: flex;
   flex-direction: row;
-}
-
-.navbar .leftSide {
-  display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: left;
   color: #f3f1f2;
-  text-decoration: none;
-}
-
-.navbar .rightSide {
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: right;
-  color: #f3f1f2;
-  text-decoration: none;
 }
 
 .navbar a {
@@ -51,54 +36,45 @@
   cursor: pointer;
 }
 
-.navbar .rightSide button {
+.navbar button {
   background-color: transparent;
   border: none;
   color: white;
   cursor: pointer;
+  padding: 20px;
+  padding-bottom: 18px;
 }
 
-.narbar #open{
-  padding-left: 0px;
+/* If the current screen size is above 550px */
+@media only screen and (min-width: 550px) {
+  .navbar .left-side {
+    display: visible;
+  }
+
+  .navbar .section-links {
+    display: visible;
+  }
+
+  .navbar button {
+    display: none;
+  }
 }
 
-.narbar #open .hiddenLinks{
-  display: inherit;
-  margin-left: 30px;
-}
-
-.navbar #close .hiddenLinks{
-  display: none;
-}
-
-.navbar #open a {
-  width: 70px;
-}
-
-.navbar #open #name{
-  display: none;
-}
-
-@media only screen and (max-width: 500px) {
-  .navbar .rightSide a {
+/* If the current screen size is below 550px */
+@media only screen and (max-width: 550px) {
+  .navbar #open .left-side {
     display: none;
   }
 
-  .navbar .rightSide {
-    padding-right: 14px;
+  .navbar #closed .left-side {
+    display: visible;
   }
 
-  .navbar .rightSide button {
-    display: inherit;
-  }
-}
-
-@media only screen and (min-width: 500px) {
-  .navbar .rightSide button {
-    display: none;
+  .navbar #open .section-links {
+    display: visible;
   }
 
-  .hiddenLinks {
+  .navbar #closed .section-links {
     display: none;
   }
 }
