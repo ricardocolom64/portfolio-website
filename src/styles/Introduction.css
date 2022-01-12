@@ -177,7 +177,7 @@
 }
 
 .introduction .call-to-action .project-button:active {
-  transform: translateY(4px);
+  transform: translateY(6px);
   box-shadow: none;
   transition: transform 34ms;
 }

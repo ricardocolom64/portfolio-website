@@ -1,6 +1,6 @@
 .contact {
   width: 100%;
-  background-color: var(--dark);
+  background: var(--darker);
   color: var(--text);
   padding-bottom: 32px;
   display: flex;
@@ -8,8 +8,9 @@
   align-items: center;
 }
 
-.contact .contact-content {
-  width: 1000px;
+.contact .contact-content {  
+  border-top: 1px solid #262626;
+  width: 1200px;
   max-width: 90%;
   text-align: center;
   margin-bottom: 32px;
@@ -92,7 +93,7 @@ textarea {
 }
 
 .contact .contact-under-form .submit-button:active {
-  transform: translateY(4px);
+  transform: translateY(6px);
   box-shadow: none;
   transition: transform 34ms;
 }
@@ -157,29 +158,14 @@ textarea {
   }
 }
 
-/* .contact .content {
-  max-width: 90%;
-  margin-top: 16px;
+.contact .socials{
+  margin-top: 32px;
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   text-align: center;
-}
-
-.contact .content .header {
-  font-family: Chakra Petch;
   font-size: 32px;
-  font-weight: bold;
-  margin: 12px;
+  color: var(--darker);
 }
-
-.contact .content .intro {
-  font-family: Open Sans;
-  font-size: 24px;
-  margin: 12px;
-  text-align: center;
-}
-
-.contact .content a {
-  color: var(--primary);
-  font-family: Chakra Petch;
-  font-size: 32px;
-  font-weight: bold;
-} */

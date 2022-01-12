@@ -7,6 +7,7 @@ import AboutMe from "./components/AboutMe";
 import Resume from "./components/Resume";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
+import Footer from "./components/Footer";
 import NotFound from "./components/NotFound";
 import UnderConstruction from "./components/UnderConstruction";
 import HomePage from "./Pages/HomePage.js";
@@ -36,6 +37,7 @@ function App() {
           <Route path="*" element={<NotFound />} />
         </Routes>
         <Contact />
+        <Footer />
       </Router>
     </div>
   );

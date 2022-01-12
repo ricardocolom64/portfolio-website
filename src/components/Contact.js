@@ -15,8 +15,8 @@ function Contact() {
         <div className="contact-header">contact</div>
         <div className="contact-form-content">
           <div className="contact-form-warning">
-            <strong>WARNING:</strong> Form is under construction, please use my email below
-            instead.
+            <strong>WARNING:</strong> Form is under construction, please use my
+            email below instead.
           </div>
           <form id="contact-form" method="POST">
             <input name="name" placeholder="Full name" type="text" />
@@ -32,12 +32,15 @@ function Contact() {
         <div className="contact-under-form">
           <div className="other-contacts">
             <i class="fa fa-envelope"></i>
-            <a href="mailto:ricardocolom64@gmail.com">ricardocolom64@gmail.com</a>
+            <a href="mailto:ricardocolom64@gmail.com">
+              ricardocolom64@gmail.com
+            </a>
           </div>
           <div className="submit-button">
             <div className="button-text">Submit</div>
           </div>
         </div>
+        
       </div>
     </div>
   );

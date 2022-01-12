@@ -19,19 +19,19 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  color: #f3f1f2;
+  color: var(--text);
 }
 
 .navbar a {
   padding: 20px;
   padding-bottom: 18px;
   text-decoration: none;
-  color: #f3f1f2;
+  color: var(--text);
   transition: 0.1s;
 }
 
 .navbar a:hover {
-  background: #101010;
+  background: var(--darkest);
   transition: 0.1s;
   cursor: pointer;
 }
@@ -39,7 +39,7 @@
 .navbar button {
   background-color: transparent;
   border: none;
-  color: white;
+  color: var(--text);
   cursor: pointer;
   padding: 20px;
   padding-bottom: 18px;

@@ -1,7 +1,7 @@
 .projectPage {
   width: 100%;
   min-height: 800px;
-  background-color: #161618;
+  background-color: var(--darker);
   color: var(--text);
   padding-top: 76px;
   padding-bottom: 32px;
@@ -63,7 +63,7 @@
 
 .projectPage .tech {
   border-top: 1px solid var(--dark);
-  width: 1200px;
+  width: 900px;
   max-width: 80%;
   font-family: Chakra Petch;
   font-size: 32px;
@@ -117,7 +117,7 @@
   border-top: 1px solid var(--dark);
   margin: 16px;
   margin-top: 0px;
-  width: 1200px;
+  width: 900px;
   max-width: 80%;
   display: flex;
   justify-content: center;
