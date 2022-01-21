@@ -1,12 +1,14 @@
 {
-  "homepage": "http://ricardocolom64.github.io/portfolio-website/",
+  "homepage": "https://ricardocolom.com/",
   "name": "portfolio-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emailjs/browser": "^3.4.0",
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "dotenv": "^14.2.0",
     "react": "^17.0.2",
     "react-3d-viewer": "^1.0.12",
     "react-dom": "^17.0.2",

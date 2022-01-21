@@ -28,15 +28,6 @@ function Introduction() {
             </div>
           </div>
           <div className="rightSide">
-            {/* <img
-              src={Selfie2}
-              alt=""
-              style={{
-                borderRadius: "25px",
-                height: "324px",
-                boxShadow: "0px 3px 8px black",
-              }}
-            /> */}
             <span role="img" aria-label="man-raising-hand">
               🙋🏻‍♂️
             </span>

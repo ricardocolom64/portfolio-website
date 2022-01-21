@@ -76,8 +76,9 @@ textarea {
   max-width: 100%;
 }
 
-.contact .contact-under-form .submit-button {
+.contact .submit-button {
   color: var(--text);
+  border: none;
   margin: 6px;
   margin-right: 0px;
   font-family: Chakra Petch;
@@ -92,13 +93,13 @@ textarea {
   width: 80px;
 }
 
-.contact .contact-under-form .submit-button:active {
+.contact .submit-button:active {
   transform: translateY(6px);
   box-shadow: none;
   transition: transform 34ms;
 }
 
-.contact .contact-under-form .submit-button:hover {
+.contact .submit-button:hover {
   filter: brightness(90%);
 }
 
