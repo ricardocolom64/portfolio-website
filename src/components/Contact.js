@@ -30,8 +30,8 @@ function Contact() {
         <div className="contact-header">contact</div>
         <div className="contact-form-content">
           <form ref={form} onSubmit={sendEmail} id="contact-form" method="POST">
-            <input name="name" placeholder="Full name" type="text" />
-            <input name="email" placeholder="Email" type="email" />
+            <input name="name" placeholder="Full name" type="text" required/>
+            <input name="email" placeholder="Email" type="email" required/>
             <textarea
               rows="6"
               placeholder="Message"
