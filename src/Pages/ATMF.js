@@ -1,10 +1,8 @@
 import React from "react";
-import ReactPlayer from "react-player";
 import "../styles/ProjectPage.css";
 import {Link} from "react-router-dom";
 import ScrollToTop from "../helpers/ScrollToTop";
 import logo from "../assets/projects/atmf/logo.png";
-import DiscordLogo from "../helpers/DiscordLogo";
 import BlenderLogo from "../helpers/BlenderLogo";
 import UnityLogo from "../helpers/UnityLogo";
 import CSharpLogo from "../helpers/CSharpLogo";
@@ -12,7 +10,6 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.css";
 
 //#region ATMF IMAGES
-import image1 from "../assets/projects/atmf/image1.png";
 import image2 from "../assets/projects/atmf/image2.png";
 import image3 from "../assets/projects/atmf/image3.png";
 import image4 from "../assets/projects/atmf/image4.png";
@@ -94,7 +91,6 @@ function ATMF() {
             <UnityLogo />
             <CSharpLogo />
             <BlenderLogo />
-            {/* <DiscordLogo /> */}
           </div>
         </div>
       </div>

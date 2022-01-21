@@ -18,6 +18,9 @@ function PlayATMF() {
           <b>ESC</b> to pause
         </div>
       </div>
+      <div className="incompatible-on-mobile" style={{ whiteSpace: "pre-line" }}>
+        <h1>Whoops... {"\n\n"}This page is incompatible on mobile, please try on a desktop computer.</h1>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,7 @@
 .playATMF {
   width: 100%;
-  min-height: 800px;
-  background-color: #161618;
-  color: #f3f1f2;
+  background-color: var(--darker);
+  color: var(--text);
   padding-top: 60px;
   padding-bottom: 32px;
   display: flex;
@@ -15,7 +14,7 @@
 }
 
 .playATMF .controls {
-  border-top: 1px solid #262626;
+  border-top: 1px solid var(--dark);
   margin: 16px;
   margin-top: 0px;
   width: 60%;
@@ -40,4 +39,30 @@
     min-width: 500px;
     font-family: Open Sans;
     font-size: 16px;
+}
+
+.playATMF .incompatible-on-mobile{
+  font-family: Chakra Petch;
+  max-width: 90%;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin: 16px;
+  margin-top: 128px;
+  margin-bottom: 128px;
+  display: none;
+}
+
+@media only screen and (max-width: 1000px) {
+  .playATMF iframe {
+    display: none;
   }
+
+  .playATMF .controls {
+    display: none;
+  }
+
+  .playATMF .incompatible-on-mobile{
+    display: flex;
+  }
+}
