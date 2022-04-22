@@ -1,6 +1,5 @@
 import React from "react";
 import "../styles/AboutMe.css";
-import Groove from "../assets/groove.gif";
 
 // Handy getAge function courtesy of https://stackoverflow.com/questions/10008050/get-age-from-birthdate
 // This is literally so that I don't forget to manually change my age every time I have a birthday...

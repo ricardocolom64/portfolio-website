@@ -1,7 +1,6 @@
 import React from "react";
 import "../styles/Introduction.css";
 import { HashLink } from "react-router-hash-link";
-import Selfie2 from "../assets/selfie2.png";
 import UnityLogo from "../helpers/UnityLogo";
 import CSharpLogo from "../helpers/CSharpLogo";
 import ReactLogo from "../helpers/ReactLogo";
