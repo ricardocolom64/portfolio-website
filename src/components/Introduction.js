@@ -23,7 +23,7 @@ function Introduction() {
               I'm <b>Ricardo Colom</b>
             </div>
             <div className="caption" style={{ whiteSpace: "pre-line" }}>
-              an aspiring <strong>developer</strong> from South Florida
+              a <strong>developer</strong> from South Florida
             </div>
           </div>
           <div className="rightSide">
