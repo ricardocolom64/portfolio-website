@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/Resume.css";
 
-const resume = "/Ricardo Colom - Resume [April 2022, Web PDF].pdf";
+const resume = "/Ricardo Colom - Resume [August 2022, Web PDF].pdf";
 
 function Resume() {
   return (
