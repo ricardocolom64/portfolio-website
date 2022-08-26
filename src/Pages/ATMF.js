@@ -41,7 +41,7 @@ function ATMF() {
       </div>
       <div className="content">
         <div className="header">
-          <img src={logo} alt="" style={{ height: "100px" }} />
+          <img src={logo} alt="" style={{ height: "140px" }} />
           {/* Aliens Took My Friend */}
         </div>
         <div className="body" style={{ whiteSpace: "pre-line" }}>
@@ -75,12 +75,12 @@ function ATMF() {
           programming and designing the game, however my personal contributions
           are as follows:
           <ul>
-            <li>Programming character movement, shooting, and room logic.</li>
+            <li>Programmed character movement, shooting, and room logic.</li>
             <li>
-              Designing and modeling <strong>all</strong> models using Blender.
+              Designed and modeled <strong>all</strong> models using Blender.
             </li>
-            <li>Producing and arranging the game's music.</li>
-            <li>Arranging sound effects.</li>
+            <li>Produced and arranged the game's music.</li>
+            <li>Arranged sound effects.</li>
           </ul>
         </div>
       </div>

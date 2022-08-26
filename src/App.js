@@ -13,6 +13,7 @@ import UnderConstruction from "./components/UnderConstruction";
 import HomePage from "./Pages/HomePage.js";
 import ATMF from "./Pages/ATMF";
 import SitePage from "./Pages/SitePage";
+import Snackability from "./Pages/Snackability";
 import PlayATMF from "./Pages/PlayATMF";
 import "./App.css";
 
@@ -32,6 +33,7 @@ function App() {
           <Route exact path="/projects/site" element ={<SitePage />} />
           <Route exact path="/projects/atmf" element={<ATMF />} />
           <Route exact path="/projects/atmf/play" element={<PlayATMF />} />
+          <Route exact path="/projects/snackability" element={<Snackability />} />
           <Route exact path="/projects/instaslot" element={<UnderConstruction />} />
           <Route exact path="/projects/instaslot/play" element={<UnderConstruction />} />
           <Route path="*" element={<NotFound />} />

@@ -12,7 +12,7 @@ function ReactLogo() {
             height: "64px",
           }}
         />
-        {"\n"}ReactJS
+        {"\n"}React
       </div>
     </a>
   );
