@@ -54,8 +54,7 @@ function AboutMe() {
                   This updates automatically, trust me...
                 </span>
               </text2>{" "}
-              years old and a senior at Florida International University,
-              pursuing a bachelor's degree in <strong>Computer Science</strong>{" "}
+              years old and recent graduate of Florida International University. I graduated with a Bachelor of Science in <strong>Computer Science</strong>{" "}
               and a minor in <strong>Mathematical Sciences</strong>.{"\n\n"}I am
               driven and have a passion for creating polished{" "}
               <strong>apps and software</strong>. My hobbies include hanging out
