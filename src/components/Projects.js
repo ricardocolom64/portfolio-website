@@ -4,7 +4,7 @@ import { ProjectList } from "../helpers/ProjectList.js";
 import ProjectItem from "./ProjectItem";
 import ATMFThumbnail from "../assets/projects/atmf/image1.png";
 import SiteThumbnail from "../assets/projects/website/thumbnail-lazy.png";
-import SnackabilityThumbnail from "../assets/projects/snackability/image1.png";
+import SnackabilityThumbnail from "../assets/projects/snackability/image2.png";
 import "../styles/Projects.css";
 
 function Projects() {
