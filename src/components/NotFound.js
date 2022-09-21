@@ -7,7 +7,10 @@ function NotFound() {
         <div className='notFound'>
             <h1>404</h1>
             <p>Looks like this page doesn't exist...</p>
-            <HashLink smooth to="/#home" className="homeBtn">go home</HashLink>
+            <HashLink smooth to="/#home" className="home-button">
+                Go home{" "}
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </HashLink>
         </div>
     )
 }

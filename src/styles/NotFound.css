@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   color: #f3f1f2;
-  background-color: #161618;
+  background-color: var(--darker);
 }
 
 .notFound h1{
@@ -17,29 +17,35 @@
 }
 
 .notFound p{
-  margin: 8px;
+  margin-bottom: 48px;
   font-size: 24px;
   font-family: Open Sans;
 }
 
-.notFound .homeBtn{
+.notFound .home-button {
+  display: inline-block;
   text-decoration: none;
-  color: #f3f1f2;
-  margin: 12px;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  width: 220px;
-  text-align: center;
-  background-color: #262626;
-  box-shadow: 0px 3px 8px black;
+  color: var(--text);
+  margin: none;
   font-family: Chakra Petch;
-  font-size: 32px;
-  border-radius: 16px;
-  transition: 0.2s;
+  padding: 18px;
+  background-color: var(--primary);
+  text-shadow: rgba(0, 0, 0, 0.5) 2px 2px 2px;
+  box-shadow: 0px 6px var(--primary-dark);
+  border-radius: 12px;
+  cursor: pointer;
 }
 
-.notFound .homeBtn:hover {
-  cursor: pointer;
-  background: #101010;
-  transition: 0.2s;
+.notFound .home-button i{
+  margin-left: 8px;
+}
+
+.notFound .home-button:active {
+  transform: translateY(6px);
+  box-shadow: none;
+  transition: transform 34ms;
+}
+
+.notFound .home-button:hover {
+  filter: brightness(90%);
 }

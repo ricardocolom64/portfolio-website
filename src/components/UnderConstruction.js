@@ -6,8 +6,11 @@ function UnderConstruction() {
     return (
         <div className='underConstruction'>
             <h1>Under Construction</h1>
-            <p>Sorry about that!</p>
-            <HashLink smooth to="/#home" className="homeBtn">go home</HashLink>
+            <p>Sorry about that</p>
+            <HashLink smooth to="/#home" className="home-button">
+                Go home{" "}
+                <i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+            </HashLink>
         </div>
     )
 }

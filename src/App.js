@@ -34,6 +34,7 @@ function App() {
           <Route exact path="/projects/atmf" element={<ATMF />} />
           <Route exact path="/projects/atmf/play" element={<PlayATMF />} />
           <Route exact path="/projects/snackability" element={<Snackability />} />
+          <Route exact path="/projects/tod" element={<UnderConstruction />} />
           <Route exact path="/projects/instaslot" element={<UnderConstruction />} />
           <Route exact path="/projects/instaslot/play" element={<UnderConstruction />} />
           <Route path="*" element={<NotFound />} />

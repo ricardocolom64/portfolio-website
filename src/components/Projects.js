@@ -5,6 +5,7 @@ import ProjectItem from "./ProjectItem";
 import ATMFThumbnail from "../assets/projects/atmf/image1.png";
 import SiteThumbnail from "../assets/projects/website/thumbnail-lazy.png";
 import SnackabilityThumbnail from "../assets/projects/snackability/image2.png";
+import TODThumbnail from "../assets/projects/tod/sample.png"
 import "../styles/Projects.css";
 
 function Projects() {
@@ -39,6 +40,15 @@ function Projects() {
             image={ATMFThumbnail}
             type="fa fa-gamepad"
             link="/projects/atmf"
+          />
+          <ProjectItem
+            id="tod"
+            name="Truth or Drink Unofficial Mobile Port"
+            desc="&emsp;The viral Truth or Drink card game by Cut, now as an unofficial 
+            mobile app you can play with your friends at a party or something."
+            image={TODThumbnail}
+            type="fa fa-mobile"
+            link="/projects/tod"
           />
         </div>
       </div>
