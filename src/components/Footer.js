@@ -15,7 +15,7 @@ function Footer() {
             <i class="fa fa-github" aria-hidden="true"></i>
           </a>
           <a
-            href="https://www.linkedin.com/in/ricardo-colom-8a76321b8/"
+            href="https://www.linkedin.com/in/ricardo-colom/"
             target="_blank"
             rel="noopener noreferrer"
           >

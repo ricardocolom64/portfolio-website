@@ -17,7 +17,7 @@ function Projects() {
           <ProjectItem
             id="snackability"
             name="Snackability"
-            desc="&emsp;A web application developed with other FIU students to encourage others to make nutritional snack choices."
+            desc="&emsp;A web application developed with other FIU students to encourage others to make healthier snack choices."
             image={SnackabilityThumbnail}
             type="fa fa-desktop"
             link="/projects/snackability"
@@ -26,7 +26,7 @@ function Projects() {
             id="site"
             name="This Website"
             desc="&emsp;My first time working with React, HTML, CSS, and Git. Development
-                began in late December 2021 and will remain ongoing as I work on new projects."
+                  began in late December 2021 and will remain ongoing as I work on new projects."
             image={SiteThumbnail}
             type="fa fa-desktop"
             link="/projects/site"
@@ -34,9 +34,9 @@ function Projects() {
           <ProjectItem
             id="atmf"
             name="Aliens Took My Friend"
-            desc="&emsp;A short top-down adventure game a friend and I developed
-            where your fellow astronaut friend has been kidnapped and taken
-            onto an alien spaceship."
+            desc="&emsp;A short top-down adventure game a friend where your fellow astronaut
+                  friend has been kidnapped and needs rescuing
+                  onboard an alien spaceship."
             image={ATMFThumbnail}
             type="fa fa-gamepad"
             link="/projects/atmf"
@@ -45,7 +45,8 @@ function Projects() {
             id="tod"
             name="Truth or Drink: The Unofficial Mobile Port"
             desc="&emsp;The viral Truth or Drink card game by Cut, now as an unofficial 
-            mobile app you can play with your friends at a party or something."
+                  mobile app where you can direct your friends to ask each other fun yet
+                  intensely personal questions."
             image={TODThumbnail}
             type="fa fa-mobile"
             link="/projects/tod"
