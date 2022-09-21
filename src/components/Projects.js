@@ -43,7 +43,7 @@ function Projects() {
           />
           <ProjectItem
             id="tod"
-            name="Truth or Drink Unofficial Mobile Port"
+            name="Truth or Drink: The Unofficial Mobile Port"
             desc="&emsp;The viral Truth or Drink card game by Cut, now as an unofficial 
             mobile app you can play with your friends at a party or something."
             image={TODThumbnail}
