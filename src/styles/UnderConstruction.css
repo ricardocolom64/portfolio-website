@@ -7,7 +7,7 @@
   align-items: center;
   justify-content: center;
   color: #f3f1f2;
-  background-color: #161618;
+  background-color: var(--darker);
 }
 
 .underConstruction h1{
