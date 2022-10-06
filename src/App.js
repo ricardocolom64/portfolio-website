@@ -15,6 +15,7 @@ import ATMF from "./Pages/ATMF";
 import SitePage from "./Pages/SitePage";
 import Snackability from "./Pages/Snackability";
 import PlayATMF from "./Pages/PlayATMF";
+import TurthOrDrink from "./Pages/TurthOrDrink";
 import "./App.css";
 
 function App() {
@@ -34,7 +35,7 @@ function App() {
           <Route exact path="/projects/atmf" element={<ATMF />} />
           <Route exact path="/projects/atmf/play" element={<PlayATMF />} />
           <Route exact path="/projects/snackability" element={<Snackability />} />
-          <Route exact path="/projects/tod" element={<UnderConstruction />} />
+          <Route exact path="/projects/tod" element={<TurthOrDrink />} />
           <Route exact path="/projects/instaslot" element={<UnderConstruction />} />
           <Route exact path="/projects/instaslot/play" element={<UnderConstruction />} />
           <Route path="*" element={<NotFound />} />

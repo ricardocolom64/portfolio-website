@@ -9,7 +9,7 @@ import FirebaseLogo from "../helpers/FirebaseLogo";
 import HTMLLogo from "../helpers/HTMLLogo";
 import CSSLogo from "../helpers/CSSLogo";
 
-function SitePage() {
+function Snackability() {
   return (
     <div className="projectPage" id="snackability">
       <ScrollToTop />
@@ -65,22 +65,8 @@ function SitePage() {
           </div>
         </div>
       </div>
-      {/* <div className="links">
-        <div className="links-header">links</div>
-        <div className="links-body">
-          <div className="project-link">
-            <a
-              href="https://snackability.fiu.edu/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              official site
-            </a>
-          </div>
-        </div>
-      </div> */}
     </div>
   );
 }
 
-export default SitePage;
+export default Snackability;
