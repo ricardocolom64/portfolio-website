@@ -16,7 +16,7 @@ function TurthOrDrink() {
           <iframe
             width="560"
             height="405"
-            src="https://www.youtube.com/embed/8-Sy57DKSmI"
+            src="https://www.youtube.com/embed/tARY4LJLU1o"
             title="YouTube video player"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -33,7 +33,9 @@ function TurthOrDrink() {
         </div>
         <div className="body" style={{ whiteSpace: "pre-line" }}>
           <p>
-            &emsp;&emsp;&emsp;&emsp;TOD
+            &emsp;&emsp;&emsp;&emsp;The viral Truth or Drink card game by Cut, now as an unofficial mobile port. This application was tested at various social events by directing others to ask each other the fun yet intensely personal questions displayed on each card.
+            {"\n\n"}
+            &emsp;&emsp;&emsp;&emsp;You can cycle through each of the four card categories to play with a total of 216 disctinct cards.
             {"\n\n"}
           </p>
         </div>
@@ -53,7 +55,7 @@ function TurthOrDrink() {
         <div className="links-body">
           <div className="project-link">
             <a
-              href="https://github.com/ricardocolom64/portfolio-website"
+              href="https://github.com/ricardocolom64/truth-or-drink"
               target="_blank"
               rel="noopener noreferrer"
             >
