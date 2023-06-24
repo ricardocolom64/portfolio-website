@@ -4,4 +4,4 @@ import AboutMe from "../components/AboutMe";
 import Resume from "../components/Resume";
 import Projects from "../components/Projects";
 
-export default [<ScrollToTop />, <Introduction />, <AboutMe />, <Resume />, <Projects />];
+export default [<Introduction />, <AboutMe />, <Resume />, <Projects />];

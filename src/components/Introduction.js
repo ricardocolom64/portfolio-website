@@ -6,6 +6,8 @@ import CSharpLogo from "../helpers/CSharpLogo";
 import ReactLogo from "../helpers/ReactLogo";
 import HTMLLogo from "../helpers/HTMLLogo";
 import CSSLogo from "../helpers/CSSLogo";
+import SymfonyLogo from "../helpers/SymfonyLogo";
+import PHPLogo from "../helpers/PHPLogo";
 
 const scrollWithOffset = (el) => {
   const yCoordinate = el.getBoundingClientRect().top + window.pageYOffset;
@@ -42,6 +44,8 @@ function Introduction() {
             <CSSLogo />
             <UnityLogo />
             <CSharpLogo />
+            <SymfonyLogo />
+            <PHPLogo />
           </div>
         </div>
         <div className="call-to-action">
