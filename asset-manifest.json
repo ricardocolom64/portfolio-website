@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.72535eae.css",
-    "main.js": "/static/js/main.a978215a.js",
-    "static/js/787.49138e18.chunk.js": "/static/js/787.49138e18.chunk.js",
+    "main.css": "/static/css/main.b434dafa.css",
+    "main.js": "/static/js/main.a422ff9a.js",
+    "static/js/787.749b4a44.chunk.js": "/static/js/787.749b4a44.chunk.js",
     "static/media/image1.png": "/static/media/image1.46e0b16f91fce4314015.png",
     "static/media/thumbnail-small.png": "/static/media/thumbnail-small.dcecc4a6a268919047c7.png",
     "static/media/image3.png": "/static/media/image3.47d3424cf756c44ec131.png",
@@ -16,6 +16,8 @@
     "static/media/firebase_logo.svg": "/static/media/firebase_logo.1320f52eccb0a46706d41c6fd42fdeba.svg",
     "static/media/Logo_Blender.svg": "/static/media/Logo_Blender.e1f1eeb2c8d15e970e8c4cf1728577de.svg",
     "static/media/nodejs-new-pantone-white.svg": "/static/media/nodejs-new-pantone-white.f917ac5c89daa244c1aa10cf47789692.svg",
+    "static/media/PHP-logo-fixed.svg": "/static/media/PHP-logo-fixed.3900eb4b0ff39c169cab95b39eb99516.svg",
+    "static/media/symfony_white-cropped.svg": "/static/media/symfony_white-cropped.8a98e4ff3338c94835490f0470efd21a.svg",
     "static/media/U_Logo_White_RGB-cropped.svg": "/static/media/U_Logo_White_RGB-cropped.eb5ada298eb2639b86cb2dbc96a72f97.svg",
     "static/media/React_Logo-cropped.svg": "/static/media/React_Logo-cropped.7d7d4779a8191a0cb59a637ded9f8216.svg",
     "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
@@ -24,12 +26,12 @@
     "static/media/CSS3_logo-cropped.svg": "/static/media/CSS3_logo-cropped.091d76a64b3e6641bd9883b60e1d18ae.svg",
     "static/media/HTML5_Badge-cropped.svg": "/static/media/HTML5_Badge-cropped.1218e912681818726a9f3dbb14660eac.svg",
     "static/media/reorder_white_24dp.svg": "/static/media/reorder_white_24dp.27c4ea892f7dcb195802dba0a9541719.svg",
-    "main.72535eae.css.map": "/static/css/main.72535eae.css.map",
-    "main.a978215a.js.map": "/static/js/main.a978215a.js.map",
-    "787.49138e18.chunk.js.map": "/static/js/787.49138e18.chunk.js.map"
+    "main.b434dafa.css.map": "/static/css/main.b434dafa.css.map",
+    "main.a422ff9a.js.map": "/static/js/main.a422ff9a.js.map",
+    "787.749b4a44.chunk.js.map": "/static/js/787.749b4a44.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.72535eae.css",
-    "static/js/main.a978215a.js"
+    "static/css/main.b434dafa.css",
+    "static/js/main.a422ff9a.js"
   ]
 }
