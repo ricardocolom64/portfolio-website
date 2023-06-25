@@ -41,7 +41,7 @@ function ATMF() {
       </div>
       <div className="content">
         <div className="header">
-          <img src={logo} alt="" style={{ height: "140px" }} />
+          <img src={logo} alt="" style={{ height: "100px" }} />
           {/* Aliens Took My Friend */}
         </div>
         <div className="body" style={{ whiteSpace: "pre-line" }}>

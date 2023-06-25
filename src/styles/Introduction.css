@@ -104,7 +104,7 @@
 
 @media only screen and (max-width: 500px) {
   .introduction .tech-icons {
-    transform: scale(0.46);
+    transform: scale(0.3);
   }
 }
 
